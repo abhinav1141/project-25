@@ -29,7 +29,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background("white");
+  background("red");
   Engine.update(engine);
   ground.display();
    dust1.display();
